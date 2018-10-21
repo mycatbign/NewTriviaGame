@@ -1,0 +1,58 @@
+/* style page for Crystal Collector Game */
+
+/* Common items */
+body {
+    background: url("../images/vaio_hard_edge.png");
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(230, 173, 52) !important;
+    border-radius: 100px;
+}
+
+#gameTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 0px;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#instText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+#theTimer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+#theQuestion {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+#answerDisplay {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+/* highlights for question answers */
+.possibleAnswer:hover {
+    background-color: rgb(40, 172, 84);
+}
+
